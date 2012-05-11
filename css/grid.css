@@ -516,10 +516,10 @@ html body * dd.clear
 .container_12, .container_16 { width: 100%; }
 .container_12 .grid_1,
 .container_16 .grid_1,
-/* .container_12 .grid_2,
-   .container_16 .grid_2, */
-/* .container_12 .grid_3,
-   .container_16 .grid_3, */
+.container_12 .grid_2,
+.container_16 .grid_2,
+.container_12 .grid_3,
+.container_16 .grid_3,
 .container_12 .grid_4,
 .container_16 .grid_4,
 .container_12 .grid_5,
@@ -545,10 +545,11 @@ html body * dd.clear
   overflow: hidden;
   display: inline-block;
 }
-.container_12 .grid_2,
-.container_16 .grid_2,
-.container_12 .grid_3,
-.container_16 .grid_3 {
+/* Class half for small screens */ 
+.container_12 .grid_2.half,
+.container_16 .grid_2.half,
+.container_12 .grid_3.half,
+.container_16 .grid_3.half {
   width: 48%;
 }
 
